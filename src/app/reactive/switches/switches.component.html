@@ -1,0 +1,98 @@
+<h2>Reactive: Switches</h2>
+<hr />
+
+<form action="">
+  <!-- Radio -->
+  <div class="row mb-3">
+    <label for="" class="col-sm-3 col-form-label">Genero</label>
+    <div class="col-sm-9">
+      <div class="custom-control custom-radio">
+        <input
+          type="radio"
+          value="M"
+          id="customRadio1"
+          name="radioGenero"
+          class="custom-control-input"
+
+        />
+        <label class="custom-control-label" for="customRadio1">Masculino</label>
+      </div>
+      <div class="custom-control custom-radio">
+        <input
+          type="radio"
+          value="F"
+          id="customRadio2"
+          name="radioGenero"
+          class="custom-control-input"
+        />
+        <label class="custom-control-label" for="customRadio2">Femenino</label>
+      </div>
+    </div>
+  </div>
+
+  <!-- Switch -->
+
+  <div class="row mb-3">
+    <label for="" class="col-sm-3 col-form-label">Notificaciones</label>
+    <div class="col-sm-9">
+      <div class="custom-control custom-switch mt-2">
+        <input
+          type="checkbox"
+          class="custom-control-input"
+          id="customSwitch1"
+        />
+        <label class="custom-control-label" for="customSwitch1"
+          >Quiero recibir notificaciones</label
+        >
+      </div>
+    </div>
+  </div>
+
+  <!-- Switches -->
+  <div class="row mb-3">
+    <label for="" class="col-sm-3 col-form-label"></label>
+    <div class="col-sm-9">
+      <div class="custom-control custom-checkbox">
+        <input
+          type="checkbox"
+          class="custom-control-input"
+          id="customCheck1"
+        />
+        <label class="custom-control-label" for="customCheck1"
+          >Teminos y condiciones de uso</label
+        >
+      </div>
+    </div>
+  </div>
+
+  <!-- Boton Submit -->
+  <div class="row">
+    <div class="col">
+      <button
+        class="btn btn-primary float-right"
+      >
+        Guardar
+      </button>
+    </div>
+  </div>
+</form>
+
+<!-- <h5>Valor del Formulario</h5>
+
+<pre>{{ miFormulario.value | json }}</pre>
+<br />
+
+<h5>Persona</h5>
+
+<pre>{{ persona | json }}</pre>
+<br />
+
+<h5>Valid</h5>
+<pre>{{ miFormulario.valid }}</pre>
+
+<h5>Terminos</h5>
+<pre>{{ miFormulario.controls?.terminos?.errors | json}}</pre>
+
+<br />
+<pre>Condiciones:</pre>
+ -->
